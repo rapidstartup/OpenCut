@@ -71,13 +71,14 @@ export default function Editor() {
                 <PreviewPanel />
               </ResizablePanel>
 
-              <ResizableHandle withHandle />
+              <ResizableHandle withHandle className="hidden md:flex" />
 
               {/* Properties Panel */}
               <ResizablePanel
                 defaultSize={propertiesPanel}
                 minSize={15}
                 onResize={setPropertiesPanel}
+                className="hidden md:block"
               >
                 <PropertiesPanel />
               </ResizablePanel>

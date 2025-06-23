@@ -8,6 +8,13 @@
       "when": 1750581188229,
       "tag": "0000_hot_the_fallen",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1750689812167,
+      "tag": "0001_sweet_scarlet_spider",
+      "breakpoints": true
     }
   ]
 }

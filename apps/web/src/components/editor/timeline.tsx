@@ -214,7 +214,7 @@ export function Timeline() {
       )}
 
       {/* Toolbar */}
-      <div className="border-b flex items-center px-2 py-1 gap-1">
+      <div className="border-b flex flex-wrap items-center px-2 py-1 gap-1">
         <TooltipProvider delayDuration={500}>
           {/* Play/Pause Button */}
           <Tooltip>
@@ -339,7 +339,7 @@ export function Timeline() {
         {/* Timeline Header with Ruler */}
         <div className="flex border-b bg-background sticky top-0 z-10">
           {/* Track Labels Header */}
-          <div className="w-48 flex-shrink-0 bg-muted/30 border-r flex items-center justify-between px-3 py-2">
+          <div className="w-24 sm:w-32 md:w-40 lg:w-48 flex-shrink-0 bg-muted/30 border-r flex items-center justify-between px-3 py-2">
             <span className="text-sm font-medium text-muted-foreground">
               Tracks
             </span>
@@ -435,7 +435,7 @@ export function Timeline() {
         {/* Tracks Area */}
         <div className="flex-1 flex overflow-hidden">
           {/* Track Labels */}
-          <div className="w-48 flex-shrink-0 border-r bg-background overflow-y-auto">
+          <div className="w-24 sm:w-32 md:w-40 lg:w-48 flex-shrink-0 border-r bg-background overflow-y-auto">
             {tracks.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-full py-8 text-center px-4">
                 <div className="w-12 h-12 rounded-full bg-muted/30 flex items-center justify-center mb-3">
