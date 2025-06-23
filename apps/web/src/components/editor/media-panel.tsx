@@ -223,7 +223,7 @@ export function MediaPanel() {
               </p>
             </div>
           ) : (
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {/* Render each media item as a draggable button */}
               {mediaItems.map((item) => (
                 <div key={item.id} className="relative group">

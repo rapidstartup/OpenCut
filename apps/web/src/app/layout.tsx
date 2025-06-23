@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: "OpenCut",
   description:
     "A simple but powerful video editor that gets the job done. In your browser.",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+  },
 };
 
 export default function RootLayout({
